@@ -9,9 +9,7 @@ Thats all, now use redux to dispatch toasts ! they will auto clear when timeout.
 no magic simple straight forward.
 
 ```
-import * as TOAST 'react-native-redux-toast';
-const Toaster = TOAST.default;
-
+import * as TOAST 'react-native-redux-js-toast';
 
 //then somewhere, anywhere where u want to call toast just dispatch action;
 this.props.addToast('warn|info|success|danger','Hello world',3000);
@@ -31,14 +29,16 @@ export default connect(null, mapActionsToDispatch)(YourComponent);
 
 ## Setup
 
-u need to include `<Toaster fixed={true} />` inside your root view, just under your app..
+u need to include `<TOAST.Toaster fixed={true} />` inside your root view, only once and for all !just under your app..
 
 example
 
 ```
-<View style={{flex:1,padding:0, margin:0}}>
+import { Toaster } 'react-native-redux-js-toast';
+
+const App = () => <View style={{flex:1,padding:0, margin:0}}>
   <View style={{flex:1}}>
-    {this.props.isLoggedIn  ? <RealApplication /> : <AuthApplication />}
+    {/* ... YOUR APPLICATION SHOULD RENDER HERE ... */}
   </View>
 
   <Toast />
@@ -46,4 +46,4 @@ example
 ```
 
 ## props
-1. fixed: if set it will make toasts fixed, otherwise they will push view uppward
+only one **fixed:** if set it will make toasts fixed, otherwise they will push view uppward

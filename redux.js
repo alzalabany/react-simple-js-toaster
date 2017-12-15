@@ -1,13 +1,7 @@
 // @flow
 export const key = '$$TOAST';
 
-const defaultState = [
-  {
-    id:'XOXO',
-    body:'When true, no visual change is made when text is pressed down. By default, a gray oval highlights the text on press down. ',
-    timeout:10000
-  }
-];
+const defaultState = [ ];
 
 function reducer(state = defaultState, action) {
   if(!action || action.type.indexOf('SIMPLEIN.TOAST') !== 0){

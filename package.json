@@ -1,5 +1,5 @@
 {
-  "name": "react-native-redux-toast",
+  "name": "react-native-redux-js-toast",
   "version": "1.0.0",
   "description": "platform independent ios/android react native toast using redux actions and store",
   "main": "index.js",
