@@ -1,0 +1,26 @@
+{
+  "name": "react-native-redux-toast",
+  "version": "1.0.0",
+  "description": "platform independent ios/android react native toast using redux actions and store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alzalabany/react-simple-js-toaster.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "redux",
+    "toast",
+    "toaster"
+  ],
+  "author": "Momen Zalabany",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alzalabany/react-simple-js-toaster/issues"
+  },
+  "homepage": "https://github.com/alzalabany/react-simple-js-toaster#readme"
+}

@@ -1,15 +1,15 @@
-# Pure javascript toaster..
+# Pure javascript react native toaster..
 
-```JSX
+This was developed as a part of a new book in writing,
 
-```
 
-Thats all, now use redux to dispatch toasts ! they will automaticly clear when timeout.
+
+Thats all, now use redux to dispatch toasts ! they will auto clear when timeout.
 
 no magic simple straight forward.
 
 ```
-import * as TOAST 'react-simple-js-toaster';
+import * as TOAST 'react-native-redux-toast';
 const Toaster = TOAST.default;
 
 
